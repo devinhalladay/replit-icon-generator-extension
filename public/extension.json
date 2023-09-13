@@ -1,0 +1,50 @@
+{
+  "name": "Icon Generator",
+  "description": "Easily create a beautiful icon for your Replit Extension!",
+  "authorEmail": "devin+extensions@repl.it",
+  "tools": [
+    {
+      name: "Icon Generator",
+      icon: "/extension.png",
+      handler: "/"
+     }
+
+  ],
+  "icon": "/extension.png",
+  "coverImages": [
+    {
+      path: "/cover.png",
+      label: "preview of extension"
+    }
+  ],
+  "longDescription": "## Generate beautiful icons for your Extensions and Repls\nNow you can make a native-feeling icon for your Extension store listing or Repl, right from the Workspace. Export your icons and upload them to your Repl or Extension Manifest, hit Publish, and you're good to go!",
+  "scopes": [
+
+    {
+      name: "write-exec",
+      reason: "This Extension can export image files to your Repl file system."
+    }
+
+  ],
+  features: [
+
+    {
+      title: "Choose from popular icon sets",
+      body: "Support for hundreds of icons that look right at home on Replit.\n",
+      image: "/feature-1.png"
+    },
+
+    {
+    title: "Painless styling, just choose two colors",
+    body: "Spend less time worrying about visual style and more time building. Just pick a primary and secondary color. You can use Replit-native presets, or use the color picker to choose your own.",
+    image: "/feature-2.png"
+  },
+
+    {
+    title: "Export UI and Store Listing icons",
+    body: "Make your Extension Store listing stand out with your new icon, and use the `.svg` export for UI icons for your custom Tools and Commands.\n",
+    image: "/feature-3.png"
+  }
+
+  ]
+}
